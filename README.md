@@ -38,7 +38,7 @@ Check out the TextCap demo video to see how it works: [TextCap Demo Video](https
 
 ## Installation
 
-To install TextCap:
+To install TextCap :
 
 1. **Download:** Access the latest release from the [TextCap Releases](https://github.com/CADhaks/TextCap/releases) page.
 2. **Installation:** Follow the provided instructions for installing the add-in in your Revit 2024 environment.
