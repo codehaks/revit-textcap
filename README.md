@@ -14,11 +14,11 @@ Find the latest releases and versions of TextCap on GitHub: [TextCap Releases](h
 
 ## Demo Video
 
-Check out the TextCap demo video to see how it works: [TextCap Demo Video](https://github.com/CADhaks/TextCap/blob/master/docs/TextCap-v1-demo.mp4)
+Check out the TextCap demo video to see how it works: [TextCap Demo Video](https://github.com/codehaks/revit-TextCap/blob/master/docs/TextCap-v1-demo.mp4)
 
 ## Screenshot
 
-![TextCap Screenshot](https://github.com/CADhaks/TextCap/blob/master/docs/screenshot.jpg)
+![TextCap Screenshot](https://github.com/codehaks/revit-TextCap/blob/master/docs/screenshot.jpg)
 
 ## How to Use TextCap
 
@@ -38,7 +38,7 @@ Check out the TextCap demo video to see how it works: [TextCap Demo Video](https
 
 ## Installation
 
-To install TextCap :
+To install TextCap:
 
 1. **Download:** Access the latest release from the [TextCap Releases](https://github.com/CADhaks/TextCap/releases) page.
 2. **Installation:** Follow the provided instructions for installing the add-in in your Revit 2024 environment.
