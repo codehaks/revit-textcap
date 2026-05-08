@@ -30,7 +30,7 @@ namespace TextCap
                 LargeImage = new BitmapImage(new Uri("pack://application:,,,/TextCap;component/Resources/icon-32.png", UriKind.RelativeOrAbsolute))
             };
 
-            var panel = application.CreateRibbonPanel("Cadhaks");
+            var panel = application.CreateRibbonPanel("Codehaks");
 
             var pulldownButton=(PulldownButton)panel.AddItem(textCapPullDownButtonData);
 

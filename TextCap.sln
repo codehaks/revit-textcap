@@ -1,22 +1,17 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34407.89
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextCap", "src\TextCap\TextCap.csproj", "{59A42167-38DB-426A-B36B-BEFD38C1005B}"
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Shared", "src\Shared\Shared.shproj", "{B7E10A82-3D4F-4C19-9E2A-5F8D6B0C4A31}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextCap 2024", "src\TextCap 2024\TextCap 2024.csproj", "{59A42167-38DB-426A-B36B-BEFD38C1005B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextCap 2025", "src\TextCap 2025\TextCap 2025.csproj", "{4D3E92A0-7B16-4F58-9B2C-1A8D5E0F3C72}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextCap 2026", "src\TextCap 2026\TextCap 2026.csproj", "{8F6A1B45-2D90-4E37-A4F1-6C0B9D5E8A23}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextCap.Test", "tests\TextCap.Test\TextCap.Test.csproj", "{0EA07131-3954-447E-8FC8-3E2F8618A359}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A2C91561-29C6-4C3D-A303-940C749065A9}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{DFE4F6E6-BEC3-4642-B2A1-4F4A98D48D4A}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{C1619D88-3413-4B4C-B4A2-5FB082468D86}"
-	ProjectSection(SolutionItems) = preProject
-		README.md = README.md
-		docs\screenshot.jpg = docs\screenshot.jpg
-		docs\TextCap-v1-demo.mp4 = docs\TextCap-v1-demo.mp4
-	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -28,6 +23,14 @@ Global
 		{59A42167-38DB-426A-B36B-BEFD38C1005B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{59A42167-38DB-426A-B36B-BEFD38C1005B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{59A42167-38DB-426A-B36B-BEFD38C1005B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D3E92A0-7B16-4F58-9B2C-1A8D5E0F3C72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D3E92A0-7B16-4F58-9B2C-1A8D5E0F3C72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D3E92A0-7B16-4F58-9B2C-1A8D5E0F3C72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D3E92A0-7B16-4F58-9B2C-1A8D5E0F3C72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F6A1B45-2D90-4E37-A4F1-6C0B9D5E8A23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F6A1B45-2D90-4E37-A4F1-6C0B9D5E8A23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F6A1B45-2D90-4E37-A4F1-6C0B9D5E8A23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F6A1B45-2D90-4E37-A4F1-6C0B9D5E8A23}.Release|Any CPU.Build.0 = Release|Any CPU
 		{0EA07131-3954-447E-8FC8-3E2F8618A359}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{0EA07131-3954-447E-8FC8-3E2F8618A359}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0EA07131-3954-447E-8FC8-3E2F8618A359}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -36,11 +39,13 @@ Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{59A42167-38DB-426A-B36B-BEFD38C1005B} = {A2C91561-29C6-4C3D-A303-940C749065A9}
-		{0EA07131-3954-447E-8FC8-3E2F8618A359} = {DFE4F6E6-BEC3-4642-B2A1-4F4A98D48D4A}
-	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2664C9EE-B58C-4E1B-834C-D23EA1F8443B}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		src\Shared\Shared.projitems*{b7e10a82-3d4f-4c19-9e2a-5f8d6b0c4a31}*SharedItemsImports = 13
+		src\Shared\Shared.projitems*{59a42167-38db-426a-b36b-befd38c1005b}*SharedItemsImports = 4
+		src\Shared\Shared.projitems*{4d3e92a0-7b16-4f58-9b2c-1a8d5e0f3c72}*SharedItemsImports = 5
+		src\Shared\Shared.projitems*{8f6a1b45-2d90-4e37-a4f1-6c0b9d5e8a23}*SharedItemsImports = 5
 	EndGlobalSection
 EndGlobal
